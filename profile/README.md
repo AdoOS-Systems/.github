@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/EXPERIMENTAL-IN_DEVELOPMENT-016A95?style=for-the-badge&labelColor=101820&color=016A95" />
 </p>
 
-<h1 align="center">AdoOS</h3>
+<h1 align="center">AdoOS</h1>
 
 <p align="center">
   <strong>An independent Linux distribution built on Alpine Linux.</strong>
