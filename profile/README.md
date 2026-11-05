@@ -2,16 +2,17 @@
 
 # AdoOS
 
-**An independent Linux distribution built on Alpine Linux.**
+### An independent Linux distribution built on Alpine Linux.
 
-*Built on foundations. Designed with purpose.*
+**Built on foundations. Designed with purpose.**
 
-[Website](https://adoos-systems.github.io/www) · [Source Code](https://github.com/AdoOS-Systems/AdoOS-src) · [Organization](https://github.com/AdoOS-Systems)
+[![Alpine Linux](https://img.shields.io/badge/BASE-Alpine%20Linux-0D597F?style=for-the-badge&logo=alpinelinux&logoColor=white)](https://alpinelinux.org/)
+[![Architecture](https://img.shields.io/badge/ARCHITECTURE-x86__64-34495E?style=for-the-badge)](https://github.com/AdoOS-Systems/AdoOS-src)
+[![Init System](https://img.shields.io/badge/INIT-OpenRC-477A91?style=for-the-badge)](https://github.com/OpenRC/openrc)
+[![Status](https://img.shields.io/badge/STATUS-EXPERIMENTAL-C58B35?style=for-the-badge)](https://github.com/AdoOS-Systems/AdoOS-src)
 
-[![Alpine Linux](https://img.shields.io/badge/Base-Alpine%20Linux-0D597F?style=flat-square&logo=alpinelinux&logoColor=white)](https://alpinelinux.org/)
-[![OpenRC](https://img.shields.io/badge/Init-OpenRC-4A90A4?style=flat-square)](https://github.com/OpenRC/openrc)
-[![License](https://img.shields.io/badge/License-MIT-2D6A4F?style=flat-square)](https://github.com/AdoOS-Systems/AdoOS-src/blob/main/LICENSE)
-[![Status](https://img.shields.io/badge/Status-Experimental-C58B35?style=flat-square)](https://github.com/AdoOS-Systems/AdoOS-src)
+[![Source](https://img.shields.io/badge/SOURCE-AdoOS--src-181717?style=for-the-badge&logo=github)](https://github.com/AdoOS-Systems/AdoOS-src)
+[![Website](https://img.shields.io/badge/WEBSITE-Visit-267A78?style=for-the-badge&logo=googlechrome&logoColor=white)](https://adoos-systems.github.io/www)
 
 </div>
 
@@ -19,51 +20,65 @@
 
 ## About
 
-**AdoOS** is an independent Linux distribution based on Alpine Linux, focused on simplicity, reproducibility, and system control.
+**AdoOS** is an independent Linux distribution built upon Alpine Linux.
 
-Built upon established open-source foundations, AdoOS develops its own distribution infrastructure, tooling, and system experience while maintaining a strong commitment to upstream compatibility.
+The project focuses on simplicity, reproducibility, and system control. It extends established upstream foundations through its own system configuration, build infrastructure, tooling, and visual identity.
 
-Rather than reinventing existing technologies, the project aims to extend them thoughtfully and create a cohesive operating system with its own identity.
+AdoOS is designed around a clear principle:
 
-## Design Principles
+> **AdoOS adds layers. It does not fork the base.**
 
-| Principle | Description |
+## Core Principles
+
+- **Upstream-first:** Preserve upstream compatibility and avoid unnecessary modifications.
+- **Minimalism:** Keep the system lean, understandable, and maintainable.
+- **Reproducibility:** Make builds predictable and development workflows transparent.
+- **User control:** Prioritize explicit configuration and system transparency.
+- **Consistency:** Build a cohesive experience across system components and tooling.
+
+## Technical Foundation
+
+| Component | Technology |
 | --- | --- |
-| **Simplicity** | Keep the system minimal, understandable, and maintainable. |
-| **Reproducibility** | Make builds and development workflows predictable and repeatable. |
-| **Upstream-first** | Respect upstream projects and avoid unnecessary divergence. |
-| **System Control** | Prioritize transparency and meaningful user control. |
-| **Intentional Design** | Treat usability, visual identity, and desktop experience as essential parts of the system. |
+| Base distribution | Alpine Linux 3.24.1 |
+| Architecture | x86_64 |
+| C library | musl |
+| Init system | OpenRC |
+| Package foundation | Alpine apk-tools |
+| Build system | Alpine mkimage |
+| Custom package tooling | `abo` (in development) |
 
-## Technology
+## Project Structure
 
-AdoOS builds upon the Alpine Linux ecosystem and its established technologies.
+AdoOS development is organized into dedicated repositories.
 
-- **Base:** Alpine Linux
-- **C Library:** musl
-- **Init System:** OpenRC
-- **Package Foundation:** Alpine `apk`
-- **Build Infrastructure:** Custom ISO profiles and build tooling
-
-## Repositories
-
-The AdoOS ecosystem is organized across dedicated repositories.
-
-| Repository | Description |
+| Repository | Purpose |
 | --- | --- |
-| [AdoOS-src](https://github.com/AdoOS-Systems/AdoOS-src) | Main distribution source tree and build infrastructure. |
-| [www](https://github.com/AdoOS-Systems/www) | Official website and web infrastructure. |
-| [.github](https://github.com/AdoOS-Systems/.github) | Organization profile and shared community configuration. |
+| [AdoOS-src](https://github.com/AdoOS-Systems/AdoOS-src) | Main source tree, ISO profile, overlays, and build scripts |
+| [www](https://github.com/AdoOS-Systems/www) | Official project website |
+| [.github](https://github.com/AdoOS-Systems/.github) | Organization profile and shared GitHub configuration |
 
-## Development
+## Development Status
 
-AdoOS is an experimental project under active development.
+<badge>Experimental — Not production-ready</badge>
 
-Its infrastructure, tooling, and system components are evolving. The project is not currently intended for production use.
+AdoOS is under active development. Its build infrastructure and core components are evolving, and important milestones such as a verified bootable ISO and package repository remain in progress.
 
-Contributions, technical feedback, and thoughtful discussions are welcome.
+For implementation details, current limitations, and the development roadmap, refer to the main source repository.
 
-If you're interested in Linux distributions, Alpine Linux, system development, packaging, or desktop environments, you're welcome to explore the repositories and follow the project's progress.
+## Contributing
+
+Contributions and technical discussions are welcome.
+
+Areas of interest include:
+
+- Linux system development
+- Alpine Linux and package tooling
+- Build infrastructure
+- Desktop environments and user experience
+- Documentation and visual design
+
+Please review the relevant repository documentation before opening an issue or submitting a pull request.
 
 ## Acknowledgements & Disclaimer
 
@@ -73,7 +88,7 @@ AdoOS-Systems is not affiliated with, endorsed by, sponsored by, or officially a
 
 All third-party names, trademarks, artwork, and other intellectual property remain the property of their respective owners. Their inclusion does not imply any partnership, endorsement, or official association.
 
-AdoOS does not claim ownership of third-party intellectual property. Project code, documentation, and original assets are governed by their respective licenses.
+Project code, documentation, and original assets are governed by their respective licenses.
 
 ---
 
@@ -81,6 +96,6 @@ AdoOS does not claim ownership of third-party intellectual property. Project cod
 
 **AdoOS — Built on foundations. Designed with purpose.**
 
-<sub>An independent project, developed with curiosity and a passion for open source.</sub>
+<sub>Independent development · Open-source foundations</sub>
 
 </div>
