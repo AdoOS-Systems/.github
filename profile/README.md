@@ -1,11 +1,11 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ADOOS-SYSTEMS-101820?style=for-the-badge&labelColor=101820&color=168C91" />
-  <img src="https://img.shields.io/badge/ALPINE_LINUX-BASED-101820?style=for-the-badge&logo=alpinelinux&logoColor=9AD9D2&labelColor=101820&color=245B60" />
-  <img src="https://img.shields.io/badge/X86__64-ARCHITECTURE-101820?style=for-the-badge&labelColor=101820&color=245B60" />
-  <img src="https://img.shields.io/badge/OPENRC-INIT_SYSTEM-101820?style=for-the-badge&labelColor=101820&color=245B60" />
-  <img src="https://img.shields.io/badge/EXPERIMENTAL-IN_DEVELOPMENT-101820?style=for-the-badge&labelColor=101820&color=8A6B91" />
+  <img src="https://img.shields.io/badge/ADOOS-SYSTEMS-016A95?style=for-the-badge&labelColor=101820&color=016A95" />
+  <img src="https://img.shields.io/badge/ALPINE_LINUX-BASED-016A95?style=for-the-badge&logo=alpinelinux&logoColor=FFFFFF&labelColor=101820&color=016A95" />
+  <img src="https://img.shields.io/badge/X86__64-ARCHITECTURE-016A95?style=for-the-badge&labelColor=101820&color=016A95" />
+  <img src="https://img.shields.io/badge/OPENRC-INIT_SYSTEM-016A95?style=for-the-badge&labelColor=101820&color=016A95" />
+  <img src="https://img.shields.io/badge/EXPERIMENTAL-IN_DEVELOPMENT-016A95?style=for-the-badge&labelColor=101820&color=016A95" />
 </p>
 
 <h1 align="center">AdoOS</h1>
